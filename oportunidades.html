@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oportunidades | EduMatch</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="">
+<header>
+  <nav class="azul" role="navigation" aria-label="Menú principal">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><span class="logo-mark">EM</span>EduMatch</a>
+      <a href="#" data-target="menu-movil" class="sidenav-trigger" aria-label="Abrir menú"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="acerca.html">¿Qué es EduMatch?</a></li>
+      <li class="active"><a href="oportunidades.html">Oportunidades</a></li>
+      <li><a href="login.html">Iniciar sesión</a></li>
+      <li><a class="btn naranja waves-effect" href="registro.html">Registrarme</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="menu-movil">
+    <li class="sidenav-brand"><span class="logo-mark">EM</span>EduMatch</li>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="acerca.html">¿Qué es EduMatch?</a></li>
+  <li class="active"><a href="oportunidades.html">Oportunidades</a></li>
+  <li><a href="login.html">Iniciar sesión</a></li>
+  <li><a class="btn naranja waves-effect btn-side" href="registro.html">Registrarme</a></li>
+  </ul>
+</header>
+
+<main>
+
+  <section class="encabezado-pagina">
+    <div class="container">
+      <h1>Oportunidades para ti</h1>
+      <p class="lede">Becas, cursos y programas de intercambio. Filtra por tipo para encontrar lo que buscas.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="container">
+      <div class="filtros" role="group" aria-label="Filtrar por tipo">
+        <button type="button" class="btn waves-effect filtro activo" data-filtro="todas">Todas</button>
+        <button type="button" class="btn waves-effect filtro" data-filtro="beca" id="becas">Becas</button>
+        <button type="button" class="btn waves-effect filtro" data-filtro="curso" id="cursos">Cursos</button>
+        <button type="button" class="btn waves-effect filtro" data-filtro="intercambio" id="intercambios">Intercambios</button>
+      </div>
+      <div class="row igualadas" id="lista-oportunidades">
+        <div class="col s12 m6 l4 op" data-tipo="beca">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/beca.svg" alt="Birrete y diploma de una beca"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-beca">Beca</span>
+              <span class="card-title">Beca Excelencia Académica</span>
+              <p>Cubre el 100% de la matrícula para estudiantes de pregrado con promedio superior a 4.2.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> Universidad Nacional</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> Cierra el 15 de noviembre</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 op" data-tipo="curso">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/curso.svg" alt="Computador con un video de curso"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-curso">Curso</span>
+              <span class="card-title">Fundamentos de Desarrollo Web</span>
+              <p>Curso corto de 40 horas en HTML, CSS y JavaScript, con certificado al finalizar.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> Modalidad virtual</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> Inicia el 3 de octubre</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 op" data-tipo="intercambio">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/intercambio.svg" alt="Globo terráqueo con un avión"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-intercambio">Intercambio</span>
+              <span class="card-title">Semestre en Barcelona</span>
+              <p>Programa de movilidad académica de un semestre con apoyo económico parcial.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> Universitat de Barcelona</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> España</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 op" data-tipo="beca">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/beca.svg" alt="Birrete y diploma de una beca"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-beca">Beca</span>
+              <span class="card-title">Beca Talento Regional</span>
+              <p>Apoyo del 60% para estudiantes de regiones apartadas admitidos en programas técnicos.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> SENA</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> Cierra el 30 de octubre</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 op" data-tipo="curso">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/curso.svg" alt="Computador con un video de curso"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-curso">Curso</span>
+              <span class="card-title">Inglés para Empleabilidad</span>
+              <p>Curso de 60 horas orientado a vocabulario laboral y entrevistas de trabajo.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> Modalidad mixta</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> Cupos limitados</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 op" data-tipo="intercambio">
+          <div class="card hoverable">
+            <div class="card-image"><img src="img/intercambio.svg" alt="Globo terráqueo con un avión"></div>
+            <div class="card-content">
+              <span class="etiqueta etiqueta-intercambio">Intercambio</span>
+              <span class="card-title">Pasantía en Ciudad de México</span>
+              <p>Pasantía de 3 meses en empresas tecnológicas aliadas, con alojamiento incluido.</p>
+              <p class="detalle"><i class="material-icons tiny">place</i> Tecnológico de Monterrey</p>
+              <p class="detalle"><i class="material-icons tiny">event</i> México</p>
+            </div>
+            <div class="card-action"><a class="azul-text" href="login.html">Postularme</a></div>
+          </div>
+        </div>
+      </div>
+      <p class="nota">Las oportunidades que ves aquí son datos de ejemplo del prototipo.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="page-footer azul">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">EduMatch</h5>
+        <p class="grey-text text-lighten-3">Aplicación que reúne becas, cursos, programas de intercambio e instituciones para que cada estudiante encuentre su próxima oportunidad.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Navegación</h5>
+        <ul class="footer-links"><li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li><li><a class="grey-text text-lighten-3" href="acerca.html">¿Qué es EduMatch?</a></li><li><a class="grey-text text-lighten-3" href="oportunidades.html">Oportunidades</a></li><li><a class="grey-text text-lighten-3" href="login.html">Iniciar sesión</a></li><li><a class="grey-text text-lighten-3" href="registro.html">Registrarme</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">Proyecto formativo SENA, Tecnólogo en Análisis y Desarrollo de Software.</div>
+  </div>
+</footer>
+
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

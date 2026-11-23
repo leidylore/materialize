@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-labelledby="t d">
+  <title id="t">Aplicación EduMatch en un celular</title>
+  <desc id="d">Un celular muestra tarjetas de beca, curso e intercambio, rodeado de un birrete, un libro y un globo terráqueo.</desc>
+  <circle cx="260" cy="225" r="200" fill="#DCE8F7"/>
+  <circle cx="260" cy="225" r="140" fill="#EAF2FB"/>
+  <!-- celular -->
+  <rect x="170" y="38" width="180" height="368" rx="26" fill="#174a8c"/>
+  <rect x="180" y="52" width="160" height="340" rx="18" fill="#FFFFFF"/>
+  <rect x="180" y="52" width="160" height="46" rx="18" fill="#1E5AA8"/>
+  <rect x="180" y="80" width="160" height="18" fill="#1E5AA8"/>
+  <rect x="196" y="66" width="22" height="14" rx="4" fill="#F2A93B"/>
+  <text x="224" y="78" font-family="Verdana, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">EduMatch</text>
+  <!-- tarjeta beca -->
+  <rect x="192" y="110" width="136" height="68" rx="10" fill="#F5F7FB" stroke="#E1E6EF"/>
+  <rect x="192" y="110" width="8" height="68" rx="4" fill="#2FA88A"/>
+  <circle cx="220" cy="136" r="12" fill="#D6F0E8"/>
+  <path d="M220 128 l10 5 -10 5 -10 -5z M213 138 v5 q7 5 14 0 v-5" fill="none" stroke="#2FA88A" stroke-width="2" stroke-linejoin="round"/>
+  <text x="240" y="134" font-family="Verdana, sans-serif" font-size="11" font-weight="bold" fill="#1F2937">Beca</text>
+  <rect x="204" y="156" width="100" height="6" rx="3" fill="#C9D3E3"/>
+  <rect x="204" y="166" width="64" height="6" rx="3" fill="#E1E6EF"/>
+  <!-- tarjeta curso -->
+  <rect x="192" y="188" width="136" height="68" rx="10" fill="#F5F7FB" stroke="#E1E6EF"/>
+  <rect x="192" y="188" width="8" height="68" rx="4" fill="#F2A93B"/>
+  <circle cx="220" cy="214" r="12" fill="#FCE9C8"/>
+  <path d="M215 208 l12 6 -12 6z" fill="#F2A93B"/>
+  <text x="240" y="212" font-family="Verdana, sans-serif" font-size="11" font-weight="bold" fill="#1F2937">Curso</text>
+  <rect x="204" y="234" width="100" height="6" rx="3" fill="#C9D3E3"/>
+  <rect x="204" y="244" width="72" height="6" rx="3" fill="#E1E6EF"/>
+  <!-- tarjeta intercambio -->
+  <rect x="192" y="266" width="136" height="68" rx="10" fill="#F5F7FB" stroke="#E1E6EF"/>
+  <rect x="192" y="266" width="8" height="68" rx="4" fill="#1E5AA8"/>
+  <circle cx="220" cy="292" r="12" fill="#DCE8F7"/>
+  <circle cx="220" cy="292" r="7" fill="none" stroke="#1E5AA8" stroke-width="2"/>
+  <path d="M213 292 h14 M220 285 q-4 7 0 14 M220 285 q4 7 0 14" fill="none" stroke="#1E5AA8" stroke-width="1.5"/>
+  <text x="240" y="290" font-family="Verdana, sans-serif" font-size="11" font-weight="bold" fill="#1F2937">Intercambio</text>
+  <rect x="204" y="312" width="100" height="6" rx="3" fill="#C9D3E3"/>
+  <rect x="204" y="322" width="58" height="6" rx="3" fill="#E1E6EF"/>
+  <!-- barra inferior -->
+  <rect x="226" y="372" width="68" height="5" rx="2.5" fill="#C9D3E3"/>
+  <!-- birrete -->
+  <g transform="translate(40 96) rotate(-12 60 40)">
+    <path d="M60 6 L116 32 L60 58 L4 32z" fill="#F2A93B"/>
+    <path d="M28 46 v22 q32 18 64 0 v-22 L60 60z" fill="#D98E1F"/>
+    <path d="M110 35 v34" stroke="#174a8c" stroke-width="3"/>
+    <circle cx="110" cy="72" r="6" fill="#174a8c"/>
+  </g>
+  <!-- libro -->
+  <g transform="translate(46 300) rotate(8 50 30)">
+    <path d="M4 12 q46 -14 46 6 v44 q0 -18 -46 -4z" fill="#2FA88A"/>
+    <path d="M96 12 q-46 -14 -46 6 v44 q0 -18 46 -4z" fill="#27917A"/>
+    <path d="M14 24 q26 -6 30 4 M14 36 q26 -6 30 4 M86 24 q-26 -6 -30 4 M86 36 q-26 -6 -30 4" fill="none" stroke="#D6F0E8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- globo -->
+  <g transform="translate(396 276)">
+    <circle cx="44" cy="44" r="40" fill="#1E5AA8"/>
+    <path d="M20 30 q10 -10 22 -4 q4 10 -4 14 q-10 2 -18 -10z M48 52 q12 -4 18 6 q-4 14 -14 14 q-8 -8 -4 -20z" fill="#2FA88A"/>
+    <ellipse cx="44" cy="44" rx="16" ry="40" fill="none" stroke="#DCE8F7" stroke-width="1.5" opacity=".7"/>
+    <path d="M6 44 h76" stroke="#DCE8F7" stroke-width="1.5" opacity=".7"/>
+    <rect x="30" y="86" width="28" height="6" rx="3" fill="#174a8c"/>
+  </g>
+  <!-- destellos -->
+  <circle cx="420" cy="110" r="7" fill="#F2A93B"/>
+  <circle cx="108" cy="250" r="5" fill="#2FA88A"/>
+  <circle cx="446" cy="200" r="4" fill="#1E5AA8"/>
+</svg>

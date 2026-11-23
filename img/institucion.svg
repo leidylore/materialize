@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Instituciones: edificio universitario</title>
+  <rect width="400" height="260" fill="#E7E9F7"/>
+  <circle cx="60" cy="50" r="70" fill="#D8DBF0"/>
+  <circle cx="350" cy="230" r="80" fill="#D8DBF0"/>
+  <!-- bandera -->
+  <path d="M200 30 v38" stroke="#174a8c" stroke-width="3"/>
+  <path d="M200 30 h30 l-8 8 8 8 h-30z" fill="#F2A93B"/>
+  <!-- frontón -->
+  <path d="M200 62 L318 112 H82z" fill="#1E5AA8"/>
+  <circle cx="200" cy="96" r="9" fill="#DCE8F7"/>
+  <rect x="80" y="112" width="240" height="12" rx="2" fill="#174a8c"/>
+  <!-- columnas -->
+  <g fill="#FFFFFF" stroke="#C9D3E3">
+    <rect x="98" y="124" width="26" height="80"/>
+    <rect x="148" y="124" width="26" height="80"/>
+    <rect x="226" y="124" width="26" height="80"/>
+    <rect x="276" y="124" width="26" height="80"/>
+  </g>
+  <rect x="176" y="148" width="48" height="56" rx="24 24 0 0" fill="#2FA88A"/>
+  <circle cx="213" cy="182" r="2.5" fill="#D6F0E8"/>
+  <!-- escalones -->
+  <rect x="84" y="204" width="232" height="10" fill="#C9D3E3"/>
+  <rect x="72" y="214" width="256" height="12" fill="#A9B7CC"/>
+</svg>

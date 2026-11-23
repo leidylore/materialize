@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Intercambio: globo terráqueo y avión entre dos países</title>
+  <rect width="400" height="260" fill="#DCE8F7"/>
+  <circle cx="340" cy="40" r="70" fill="#C8DAF1"/>
+  <circle cx="40" cy="240" r="80" fill="#C8DAF1"/>
+  <!-- globo -->
+  <circle cx="200" cy="140" r="82" fill="#1E5AA8"/>
+  <path d="M146 110 q22 -26 52 -12 q8 20 -10 30 q-24 6 -42 -18z M214 150 q28 -10 42 12 q-8 30 -32 30 q-18 -18 -10 -42z M170 176 q14 -4 18 8 q-8 10 -18 4z" fill="#2FA88A"/>
+  <ellipse cx="200" cy="140" rx="34" ry="82" fill="none" stroke="#DCE8F7" stroke-width="2" opacity=".6"/>
+  <path d="M118 140 h164 M130 100 h140 M130 180 h140" stroke="#DCE8F7" stroke-width="2" opacity=".6"/>
+  <!-- ruta -->
+  <path d="M70 214 Q200 40 330 214" fill="none" stroke="#F2A93B" stroke-width="3.5" stroke-dasharray="3 9" stroke-linecap="round"/>
+  <!-- avion -->
+  <g transform="translate(192 76) rotate(0)">
+    <path d="M-26 6 l52 -10 -8 10 8 10z" fill="#FFFFFF"/>
+    <path d="M-8 6 l-14 -18 6 0 18 12z M-8 6 l-14 18 6 0 18 -12z" fill="#F2A93B"/>
+  </g>
+  <!-- pines -->
+  <g>
+    <path d="M70 214 c-12 -14 -18 -22 -18 -30 a18 18 0 1 1 36 0 c0 8 -6 16 -18 30z" fill="#2FA88A"/>
+    <circle cx="70" cy="184" r="7" fill="#FFFFFF"/>
+    <path d="M330 214 c-12 -14 -18 -22 -18 -30 a18 18 0 1 1 36 0 c0 8 -6 16 -18 30z" fill="#F2A93B"/>
+    <circle cx="330" cy="184" r="7" fill="#FFFFFF"/>
+  </g>
+</svg>

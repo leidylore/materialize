@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Curso: computador con video y certificado</title>
+  <rect width="400" height="260" fill="#FCE9C8"/>
+  <circle cx="70" cy="40" r="70" fill="#F9DCA8"/>
+  <circle cx="350" cy="240" r="80" fill="#F9DCA8"/>
+  <!-- laptop -->
+  <rect x="96" y="50" width="208" height="130" rx="10" fill="#174a8c"/>
+  <rect x="106" y="60" width="188" height="110" rx="4" fill="#FFFFFF"/>
+  <rect x="106" y="60" width="188" height="20" rx="4" fill="#DCE8F7"/>
+  <circle cx="118" cy="70" r="3" fill="#1E5AA8"/><circle cx="128" cy="70" r="3" fill="#2FA88A"/><circle cx="138" cy="70" r="3" fill="#F2A93B"/>
+  <rect x="118" y="92" width="96" height="62" rx="6" fill="#1E5AA8"/>
+  <circle cx="166" cy="123" r="16" fill="#FFFFFF"/>
+  <path d="M161 114 l16 9 -16 9z" fill="#1E5AA8"/>
+  <rect x="226" y="94" width="56" height="6" rx="3" fill="#C9D3E3"/>
+  <rect x="226" y="108" width="40" height="6" rx="3" fill="#E1E6EF"/>
+  <rect x="226" y="122" width="50" height="6" rx="3" fill="#E1E6EF"/>
+  <rect x="118" y="160" width="164" height="4" rx="2" fill="#E1E6EF"/>
+  <rect x="118" y="160" width="92" height="4" rx="2" fill="#2FA88A"/>
+  <path d="M70 180 h260 l-14 24 h-232z" fill="#C9D3E3"/>
+  <rect x="170" y="180" width="60" height="6" rx="3" fill="#A9B7CC"/>
+  <!-- certificado -->
+  <g transform="translate(300 128) rotate(8)">
+    <rect x="0" y="0" width="74" height="54" rx="6" fill="#FFFFFF" stroke="#F2A93B" stroke-width="3"/>
+    <rect x="10" y="12" width="40" height="5" rx="2.5" fill="#C9D3E3"/>
+    <rect x="10" y="23" width="28" height="5" rx="2.5" fill="#E1E6EF"/>
+    <circle cx="56" cy="38" r="10" fill="#F2A93B"/>
+    <path d="M51 46 l-3 10 8 -4 8 4 -3 -10z" fill="#D98E1F"/>
+  </g>
+</svg>

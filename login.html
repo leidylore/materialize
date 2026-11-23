@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión | EduMatch</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="">
+<header>
+  <nav class="azul" role="navigation" aria-label="Menú principal">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><span class="logo-mark">EM</span>EduMatch</a>
+      <a href="#" data-target="menu-movil" class="sidenav-trigger" aria-label="Abrir menú"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="acerca.html">¿Qué es EduMatch?</a></li>
+      <li><a href="oportunidades.html">Oportunidades</a></li>
+      <li class="active"><a href="login.html">Iniciar sesión</a></li>
+      <li><a class="btn naranja waves-effect" href="registro.html">Registrarme</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="menu-movil">
+    <li class="sidenav-brand"><span class="logo-mark">EM</span>EduMatch</li>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="acerca.html">¿Qué es EduMatch?</a></li>
+  <li><a href="oportunidades.html">Oportunidades</a></li>
+  <li class="active"><a href="login.html">Iniciar sesión</a></li>
+  <li><a class="btn naranja waves-effect btn-side" href="registro.html">Registrarme</a></li>
+  </ul>
+</header>
+
+<main>
+
+  <section class="seccion seccion-form">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l6 offset-l3">
+          <div class="card form-card">
+            <div class="card-content">
+              <h1 class="titulo-form">Iniciar sesión</h1>
+              <p class="sub-form">Accede para ver tus postulaciones y las oportunidades que guardaste.</p>
+              <form id="form-login" novalidate>
+                <div class="input-field">
+                  <i class="material-icons prefix">email</i>
+                  <input id="correo" name="correo" type="email" class="validate" autocomplete="email" required>
+                  <label for="correo">Correo electrónico</label>
+                  <span class="helper-text" data-error="Escribe un correo válido, por ejemplo nombre@correo.com" data-success="Correo válido"></span>
+                </div>
+                <div class="input-field">
+                  <i class="material-icons prefix">lock</i>
+                  <input id="contrasena" name="contrasena" type="password" class="validate" minlength="6" autocomplete="current-password" required>
+                  <label for="contrasena">Contraseña</label>
+                  <span class="helper-text" data-error="La contraseña debe tener mínimo 6 caracteres" data-success="Contraseña válida"></span>
+                </div>
+                <button class="btn-large azul waves-effect ancho-total" type="submit">Iniciar sesión</button>
+              </form>
+              <p class="pie-form">¿Aún no tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="page-footer azul">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">EduMatch</h5>
+        <p class="grey-text text-lighten-3">Aplicación que reúne becas, cursos, programas de intercambio e instituciones para que cada estudiante encuentre su próxima oportunidad.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Navegación</h5>
+        <ul class="footer-links"><li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li><li><a class="grey-text text-lighten-3" href="acerca.html">¿Qué es EduMatch?</a></li><li><a class="grey-text text-lighten-3" href="oportunidades.html">Oportunidades</a></li><li><a class="grey-text text-lighten-3" href="login.html">Iniciar sesión</a></li><li><a class="grey-text text-lighten-3" href="registro.html">Registrarme</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">Proyecto formativo SENA, Tecnólogo en Análisis y Desarrollo de Software.</div>
+  </div>
+</footer>
+
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
